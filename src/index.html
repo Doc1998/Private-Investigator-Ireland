@@ -13,285 +13,196 @@ eleventyNavigation:
 <!-- Enter html code below -->
 
 <!-- ============================================ -->
-<!--                    Hero                      -->
-<!-- ============================================ -->
+    <!--                    Hero                      -->
+    <!-- ============================================ -->
 
-<section id="hero">
-  <div class="cs-container">
-    <div class="cs-flex-group">
-      <span class="cs-topper">mountain hiking society</span>
-      <h1 class="cs-title">Explore the World with Exciting People</h1>
-      <p class="cs-text">
-        Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Nibh tortor id aliquet lectus proin nibh
-        condimentum.
-      </p>
-      <a href="" class="cs-button-solid">Explore More</a>
-      <a href="" class="cs-button-transparent">
-        <img
-          class="cs-img"
-          loading="lazy"
-          decoding="async"
-          src="https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg"
-          alt="play icon"
-          width="17"
-          height="17"
-/>
-        Learn More
-      </a>
-    </div>
-  </div>
-
-  <!-- Background Image -->
-  {% image './src/images/landing.jpg', 'mountains', 'cs-picture', 'eager', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
-</section>
-
-<!-- ============================================ -->
-<!--                  Services                    -->
-<!-- ============================================ -->
-
-<section id="services" class="services">
-  <!-- Get Icons From flaticon.com -->
-  <div class="card">
-    <picture>
-      <img
-        aria-hidden="true"
-        decoding="async"
-        src="/assets/svgs/service1.svg"
-        alt="appliance"
-        width="48"
-        height="48"
-/>
-    </picture>
-    <h2>Service 1</h2>
-    <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
-  </div>
-  <div class="card">
-    <picture>
-      <img
-        aria-hidden="true"
-        decoding="async"
-        src="/assets/svgs/service2.svg"
-        alt="appliance"
-        width="48"
-        height="48"
-/>
-    </picture>
-    <h2>Service 2</h2>
-    <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
-  </div>
-  <div class="card">
-    <picture>
-      <img
-        aria-hidden="true"
-        decoding="async"
-        src="/assets/svgs/service3.svg"
-        alt="appliance"
-        width="48"
-        height="48"
-/>
-    </picture>
-    <h2>Service 3</h2>
-    <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
-  </div>
-</section>
-
-<!-- ============================================ -->
-<!--                 Side By Side                 -->
-<!-- ============================================ -->
-
-<section id="sbs">
-  <div class="cs-container">
-    <!-- Left Image Section -->
-    <div class="cs-left">
-      {% image './src/images/cabinets2.jpg', 'house', 'cs-picture cs-picture1', 'lazy'%}
-      {% image './src/images/construction.jpg', 'house', 'cs-picture cs-picture2', 'lazy'%}
-    </div>
-    <!-- Right Content Section-->
-    <div class="cs-right">
-      <span class="cs-topper">About Us</span>
-      <h2 class="cs-title">About Company Title</h2>
-      <p class="cs-text">
-        In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis
-        libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei
-        aptent taciti sociosqu ad litora torquent per.
-      </p>
-      <p class="cs-text">
-        In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis
-        libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei
-        aptent taciti sociosqu ad litora torquent per.
-      </p>
-      <div class="cs-flex-group">
-        <p class="cs-flex-p">
-          In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet
-          imperdiet for mind.
-        </p>
-        <span class="cs-name">Justin Time</span>
-        <span class="cs-job">CEO-Founder</span>
-        <img
-          class="cs-quote-icon"
-          loading="lazy"
-          decoding="async"
-          src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg"
-          alt="gavel"
-          width="136"
-          height="77"
-/>
+    <section id="hero-3906">
+      <div class="cs-container">
+          <h1 class="cs-title">Construction & Maintenance Experts in New York City</h1>
+          <p class="cs-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. At quis donec eget tellus turpis imperdiet aenean libero. 
+          </p>
+          <a href="" class="cs-button-solid">Request Appointment</a>
       </div>
-      <a href="/about" class="button-solid">More About Us</a>
-    </div>
-  </div>
-</section>
 
+      <!-- Background Image -->
+      <picture class="cs-background" aria-hidden="true">
+          <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Hero/kitchen-m.jpg">
+          <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Hero/kitchen.jpg">
+          <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/kitchen.jpg" alt="kitchen" width="2250" height="1500">
+      </picture>
+  </section>
+                              
 <!-- ============================================ -->
-<!--            Extra Content To Rank             -->
-<!-- ============================================ -->
+    <!--                   Stats                      -->
+    <!-- ============================================ -->
 
-<section id="sbs-r">
-  <div class="cs-container">
-    <!-- Left Image Section -->
-    <div class="cs-left">
-      {% image './src/images/construction.jpg', 'house', 'cs-picture cs-picture1', 'lazy'%}
-      {% image './src/images/cabinets2.jpg', 'house', 'cs-picture cs-picture2', 'lazy'%}
-    </div>
-    <!-- Right Content Section-->
-    <div class="cs-right">
-      <span class="cs-topper">SEO Ranking</span>
-      <h2 class="cs-title">Talk about a main service keyword</h2>
-      <p class="cs-text">
-        In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis
-        libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei
-        aptent taciti sociosqu ad litora torquent per.
-      </p>
-      <p class="cs-text">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non tenetur, iure nihil ipsam qui atque commodi id
-        voluptatem nesciunt, quis animi fuga cum doloribus! Eaque laboriosam, unde consectetur iure asperiores ullam.
-        Consequuntur debitis a voluptatibus vitae optio autem explicabo quia neque est quas, in placeat. Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Doloribus modi laudantium voluptatibus rem libero error minus quia
-        eligendi sapiente eos.
-      </p>
-      <a href="" class="button-solid">Learn More About Thing</a>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================ -->
-<!--                   Gallery                    -->
-<!-- ============================================ -->
-
-<section id="gallery">
-  <div class="cs-container">
-    <span class="cs-topper">Our Portfolio</span>
-    <h2 class="cs-title">Et orci volutpat, back up generator installations</h2>
-    <div class="cs-image-group">
-      <!-- Row 1-->
-      <div class="cs-row cs-row-1">
-        {% image './src/images/portfolio/port1.jpg', 'new hallway', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port4.jpg', 'new home construction', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port7.jpg', 'building a new wall', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
+    <section id="cs-services-1832">
+      <div class="cs-container">
+          <span class="cs-topper">Better Landscape Design</span>
+          <h2 class="cs-title">We are a Studio Based in New York, that Provides Hassle-Free Backyard Transformation with Artistic Solutions.</h2>
+          <ul class="cs-card-group">
+              <li class="cs-item">
+                  <picture class="cs-picture">
+                      <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Services/pathway.jpg">
+                      <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Services/pathway.jpg">
+                      <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Services/pathway.jpg" alt="path" width="224" height="301">
+                   </picture>
+                   <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Services/pinwheel.svg" alt="pinwheel icon" width="68" height="68">
+                   <h3 class="cs-heading3">Gardens</h3>
+              </li>
+              <li class="cs-item">
+                  <picture class="cs-picture">
+                      <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Services/urban-environment.jpg">
+                      <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Services/urban-environment.jpg">
+                      <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Services/urban-environment.jpg" alt="urban building surrounded by plants" width="224" height="301">
+                   </picture>
+                   <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Services/ring.svg" alt="ring icon" width="68" height="68">
+                   <h3 class="cs-heading3">Urban</h3>
+              </li>
+              <li class="cs-item">
+                  <picture class="cs-picture">
+                      <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Services/planting.jpg">
+                      <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Services/planting.jpg">
+                      <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Services/planting.jpg" alt="" width="224" height="301">
+                   </picture>
+                   <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Services/leaf.svg" alt="leaf icon" width="68" height="68">
+                   <h3 class="cs-heading3">Maintenance</h3>
+              </li>
+              <li class="cs-item">
+                  <picture class="cs-picture">
+                      <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Services/outdoors.jpg">
+                      <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Services/outdoors.jpg">
+                      <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Services/outdoors.jpg" alt="" width="224" height="301">
+                   </picture>
+                   <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Services/bubble-wheel.svg" alt="wheel icon" width="68" height="68">
+                   <h3 class="cs-heading3">Events</h3>
+              </li>
+          </ul>
+          <div class="cs-bottom-group">
+              <div class="cs-left-group">
+                  <span class="cs-lg-span">We handle <span class="cs-block">everything for you!</span></span>
+                  <a class="cs-lg-link" href="">View all our services</a>
+              </div>
+              <ul class="cs-bottom-ul">
+                  <li class="cs-li">Full Project Management</li>
+                  <li class="cs-li">Design & 3D Modeling</li>
+                  <li class="cs-li">Engineering</li>
+                  <li class="cs-li">Construction</li>
+                  <li class="cs-li">Stormwater Management</li>
+                  <li class="cs-li">Permits & Inspections</li>
+                  <li class="cs-li">Irrigation & Drainage</li>
+                  <li class="cs-li">Planting & Removal</li>
+                  <li class="cs-li">Snow Clearing</li>
+              </ul>
+          </div>
       </div>
-      <!-- Row 2 -->
-      <div class="cs-row cs-row-2">
-        {% image './src/images/portfolio/port2.jpg', 'new kitchen', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port5.jpg', 'apartment addition', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port8.jpg', 'kew kitchen cabinets', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-      </div>
-      <!-- Row 3 -->
-      <div class="cs-row cs-row-3">
-        {% image './src/images/portfolio/port3.jpg', 'new kitchen', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port6.jpg', 'apartment addition', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port9.jpg', 'kew kitchen cabinets', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
-
-        <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-      </div>
-    </div>
-    <a href="/projects" class="button-solid">View Full Gallery</a>
-  </div>
-</section>
+  </section>
+                              
+                              
 
 <!-- ============================================ -->
-<!--                   Reviews                    -->
-<!-- ============================================ -->
+    <!--                 Side By Side                 -->
+    <!-- ============================================ -->
 
-<section id="reviews">
-  <div class="cs-container">
-    <span class="cs-topper">Our Reviews</span>
-    <h2 class="cs-title">Words From Our Customers</h2>
-    <p class="cs-text">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dolor volutpat porttitor sagittis nunc nisl. Sagittis
-      sit pellentesque gravida viverra. Leo ut sed euismod tortor risus et. Ornare non neque, leo, ornare. Lorem ipsum
-      dolor sit amet.
-    </p>
-    <ul class="cs-card-group">
-      <!-- Review 1 -->
-      <li class="cs-item">
-        <img
-          class="cs-item-img"
-          aria-hidden="true"
-          loading="lazy"
-          decoding="async"
-          src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.png"
-          alt="profile picture"
-          width="80"
-          height="80"
-/>
-        <p class="cs-item-p">
-          Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna
-          pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa
-          urna, volutpat orci imperdiet eget eget.
-        </p>
-        <span class="cs-reviewer">
-          Jon Doe
-          <span class="cs-desc">Homeowner</span>
-        </span>
-        <img
-          class="cs-item-stars"
-          aria-hidden="true"
-          loading="lazy"
-          decoding="async"
-          src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
-          alt="stars"
-          width="96"
-          height="16"
-/>
-      </li>
-      <!-- Review 2 -->
-      <li class="cs-item">
-        <img
-          class="cs-item-img"
-          aria-hidden="true"
-          loading="lazy"
-          decoding="async"
-          src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile-4.png"
-          alt="profile picture"
-          width="80"
-          height="80"
-/>
-        <p class="cs-item-p">
-          Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna
-          pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa
-          urna, volutpat orci imperdiet eget eget.
-        </p>
-        <span class="cs-reviewer">
-          Jane Doe
-          <span class="cs-desc">Homeowner</span>
-        </span>
-        <img
-          class="cs-item-stars"
-          aria-hidden="true"
-          loading="lazy"
-          decoding="async"
-          src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
-          alt="stars"
-          width="96"
-          height="16"
-/>
-      </li>
-    </ul>
-    <a aria-label="read more reviews" href="/reviews" class="button-solid">Read More</a>
-  </div>
-</section>
+    <section id="sbs-1648">
+      <div class="cs-container">
+          <!-- Left Image Section -->
+          <picture class="cs-left" aria-hidden="true">
+              <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/body-builder-m.jpg">
+              <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/body-builder.jpg">
+              <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/body-builder.jpg" alt="body builder" width="500" height="552">
+          </picture>
+          <!-- Right Content Section-->
+          <div class="cs-right">
+              <span class="cs-topper">Small Group Training</span>
+              <h2 class="cs-title">Make your circle healthier together</h2>
+              <p class="cs-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc massa ut sed odio cursus. Malesuada scelerisque eget eu, sollicitudin tellus nibh aenean enim sed. Ut vitae eget commodo consectetur felis augue. Condimentum pellentesque sed aliquet leo in potenti libero.
+              </p>
+              <a class="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a>
+          </div>
+      </div>
+  </section>
+                              
+
+<!-- ============================================ -->
+    <!--                  Services                    -->
+    <!-- ============================================ -->
+
+    <section id="services-9797">
+      <div class="cs-container">
+          <span class="cs-topper">Best-In-Class</span>
+          <h2 class="cs-title">The United Way To Find Specialist Services</h2>
+          <p class="cs-text">
+              At Stitch Cleaning Service, let us help you solve problems so that you can focus on your mission. We support businesses through periods of expansion, succession.
+          </p>
+          <ul class="cs-card-group">
+              <li class="cs-item">
+                  <a href="" class="cs-link">
+                      <picture class="cs-picture" aria-hidden="true">
+                          <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Services/doorway.svg" loading="lazy" decoding="async" alt="icon" width="32" height="32">
+                      </picture>
+                      <h3 class="cs-h3">Door Cleaning</h3>
+                      <p class="cs-item-p">
+                          We’ve helped thousands of organizations transform to become relevant of helped thousands.
+                      </p>
+                  </a>
+              </li>
+              <li class="cs-item">
+                  <a href="" class="cs-link">
+                      <picture class="cs-picture" aria-hidden="true">
+                          <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Services/kitchen.svg" loading="lazy" decoding="async" alt="icon" width="32" height="32">
+                      </picture>
+                      <h3 class="cs-h3">Kitchen Cleaning</h3>
+                      <p class="cs-item-p">
+                          We’ve helped thousands of organizations transform to become relevant of helped thousands.
+                      </p>
+                  </a>
+              </li>
+              <li class="cs-item">
+                  <a href="" class="cs-link">
+                      <picture class="cs-picture" aria-hidden="true">
+                          <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Services/rug.svg" loading="lazy" decoding="async" alt="icon" width="32" height="32">
+                      </picture>
+                      <h3 class="cs-h3">Carpet Cleaning</h3>
+                      <p class="cs-item-p">
+                          We’ve helped thousands of organizations transform to become relevant of helped thousands.
+                      </p>
+                  </a>
+              </li>
+          </ul>
+          <a href="" class="cs-button-solid">View Portfolio</a>
+      </div>
+  </section>
+                              
+<!-- ============================================ -->
+    <!--                  Reviews                     -->
+    <!-- ============================================ -->
+
+    <section id="reviews-2968">
+      <picture class="cs-image">
+          <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Reviews/old-building-m.jpg">
+          <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Reviews/old-building.jpg">
+          <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/old-building.jpg" alt="building" width="842" height="548">
+       </picture>
+       <div class="cs-content">
+          <img class="cs-quote" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/top-quote.svg" alt="quote" width="40" height="33">
+          <p class="cs-review">
+              Their knowledge, expertise, advice and confidence gave me courage, belief and strength needed to help me go through my divorce. 
+          </p>
+          <div class="cs-info">
+              <img class="cs-profile" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile2.jpg" alt="profile" width="50" height="50">
+              <div class="cs-flex">
+                  <span class="cs-name">Sarah</span>
+                  <span class="cs-job">CEO, HK Traders</span>
+              </div>
+          </div>
+          <!--Bottom watermark quote-->
+          <img class="cs-watermark" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/top-quote.svg" alt="quote" width="136" height="120">
+       </div>
+  </section>
+                              
 <!-- ============================================ -->
 <!--             Final Call to Action             -->
 <!-- ============================================ -->
