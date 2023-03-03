@@ -658,8 +658,7 @@
     margin-bottom: clamp(1.75em, 4.17vw, 2.75em);
   }
   #cs-footer .cs-logo-img {
-    width: 100%;
-    height: auto;
+
   }
   #cs-footer .cs-text {
     /* 14px - 16px */

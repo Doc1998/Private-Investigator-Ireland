@@ -631,9 +631,7 @@
     text-align: center;
   }
   #footer .left-section .logo img {
-    width: auto;
-    height: 100%;
-    display: block;
+
   }
   #footer .left-section p {
     font-size: 0.875rem;
