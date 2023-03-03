@@ -4,7 +4,7 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #007CFB;
+    --primary: darkgrey;
     --primaryShade: #ffd675;
     --primaryDark: #805d0d;
     --bodyTextColor: #4E4B66;
@@ -180,7 +180,7 @@
   }
   #navigation .logo {
     display: inline-block;
-    height: 1.875rem;
+    height: 1.275rem;
     width: auto;
   }
   #navigation .logo img {
@@ -396,14 +396,14 @@
     transition: height .3s;
   }
   #navigation .container {
-    max-width: 75rem;
+    max-width: 80rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
   }
   #navigation .logo {
     margin-right: auto;
-    height: 3.75rem;
+    height: 2.75rem;
     width: auto;
   }
   #navigation .logo img {
