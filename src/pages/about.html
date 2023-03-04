@@ -5,9 +5,9 @@ metaTitle: 'Title that shows up on google searches'
 tagTitle: 'About'
 preloadImg: '/images/cabinets2-1920w.webp'
 preloadCSS: '/css/about.css'
-permalink: 'about/'
+permalink: 'services/'
 eleventyNavigation:
-    key: About Us
+    key: Services
     order: 200
 ---
 
@@ -18,55 +18,119 @@ eleventyNavigation:
 <!-- ============================================ -->
 
 <section id="int-hero">
-  <h1 id="home-h">About Us</h1>
-  {% image './src/images/cabinets2.jpg', 'cabinets', '', 'lazy', '(max-width: 850px) 850px, 1920px'%}
+  <h1 id="home-h">Services</h1>
+  {% image './src/images/detective.jpg', 'detective', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
 </section>
 
 <!-- ============================================ -->
-<!--                 Side By Side                 -->
-<!-- ============================================ -->
+    <!--                  Services                    -->
+    <!-- ============================================ -->
 
-<section id="sbs">
-  <div class="cs-container">
-    <!-- Left Image Section -->
-    <div class="cs-left">
-      {% image './src/images/cabinets2.jpg', 'cabinets', 'cs-picture cs-picture1', 'lazy'%}
-      {% image './src/images/construction.jpg', 'house', 'cs-picture cs-picture2', 'lazy'%}
-    </div>
-    <!-- Right Content Section-->
-    <div class="cs-right">
-      <span class="cs-topper">About Us</span>
-      <h2 class="cs-title">About Company Title</h2>
-      <p class="cs-text">
-                In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-            </p>
-      <p class="cs-text">
-                In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-            </p>
-      <div class="cs-flex-group">
-        <p class="cs-flex-p">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
-                </p>
-        <span class="cs-name">Justin Time</span>
-        <span class="cs-job">CEO-Founder</span>
-        <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
+    <section id="services-2626">
+      <div class="cs-container">
+          <span class="cs-topper">Private Investigator Ireland</span>
+          <h2 class="cs-title">Investigation</h2>
+
+          <ul class="cs-card-group">
+              <li class="cs-item">
+                  <img class="cs-icon" loading="lazy" decoding="async" src="/assets/images/business.svg" alt="icon" width="77" height="77">
+                  <h3 class="cs-h3">Business Investigations</h3>
+                  <p class="cs-item-text">
+                      Business investigations involve conducting thorough research, analyzing financial data, and examining employee behavior to uncover potential fraud, theft, or misconduct.
+                  </p>
+              </li>
+              <li class="cs-item">
+                  <img class="cs-icon" loading="lazy" decoding="async" src="/assets/images/domestic.svg" alt="icon" width="77" height="77">
+                  <h3 class="cs-h3">Domestic Investigations</h3>
+                  <p class="cs-item-text">
+                      Discretion and sensitivity are crucial in these cases to protect the privacy of clients and their families.
+                  </p>
+              </li>
+              <li class="cs-item">
+                  <img class="cs-icon" loading="lazy" decoding="async" src="/assets/images/question-mark.svg" alt="icon" width="77" height="77">
+                  <h3 class="cs-h3">Background Checks</h3>
+                  <p class="cs-item-text">
+                      Verify an individual's identity, employment history, education, criminal records, and other relevant information.
+                  </p>
+              </li>
+          </ul>
       </div>
-      <a href="" class="button-solid">More About Us</a>
+  </section>
+                            
+
+<!-- ============================================ -->
+  <!--                 Side By Side                 -->
+  <!-- ============================================ -->
+
+  <section id="sbs-1648">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <picture class="cs-left" aria-hidden="true">
+            <source media="(max-width: 600px)" srcset="/assets/images/study-m.webp">
+            <source media="(min-width: 601px)" srcset="/assets/images/study.webp">
+            <img loading="lazy" decoding="async" src="/assets/images/study.webp" alt="investigator" width="500" height="552">
+        </picture>
+        <!-- Right Content Section-->
+        <div class="cs-right">
+            <span class="cs-topper">Private Investigator Dublin</span>
+            <h2 class="cs-title">Consulting Services </h2>
+            <p class="cs-text">
+              We provide expert advice and guidance to our clients, helping them make informed decisions and achieve their objectives. Our services are tailored to meet the specific needs and requirements of each client, and we maintain strict confidentiality and ethical standards in all our work.
+            </p>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a>
+        </div>
     </div>
-  </div>
 </section>
+                            
 
 <!-- ============================================ -->
-<!--             Final Call to Action             -->
-<!-- ============================================ -->
+  <!--                  Services                    -->
+  <!-- ============================================ -->
 
-<section id="cta">
-  <div class="container">
-    <h2 class="title">Get It Done <br> With Us Today</h2>
-    <p>
-            Say something catchy, informative, and encouraging to click the button to go to the contact page.  I like to add these to the bottom of all pages.
+  <section id="services-9797">
+    <div class="cs-container">
+        <span class="cs-topper">Private Investigator Cork</span>
+        <h2 class="cs-title">Background Checks</h2>
+        <p class="cs-text">
+          Background checks are essential to verify an individual's identity, employment history, education, criminal records, and other relevant information. They are critical for individuals and businesses making decisions about hiring employees, entering into business partnerships, or 
+          engaging in personal relationships. Conducting background checks can help prevent potential fraud, theft, or misconduct, and provide peace of mind by ensuring that individuals and organizations are working with trustworthy and reliable partners. Background checks are a crucial tool to mitigate risk and protect oneself from potential liabilities.
         </p>
-    <a href="/contact.html" class="button-solid">Free Estimate</a>
-  </div>
-  {% image './src/images/cabinets2.jpg', 'kitchen cabinets', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920'%}
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <picture class="cs-picture" aria-hidden="true">
+                        <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Services/doorway.svg" loading="lazy" decoding="async" alt="icon" width="32" height="32">
+                    </picture>
+                    <h3 class="cs-h3">Premarital Investigation </h3>
+                    <p class="cs-item-p">
+                      Background check conducted on a potential spouse before marriage. This investigation can reveal any undisclosed information about the person, such as criminal records, financial history, and previous marriages or relationships.
+                    </p>
+                </a>
+            </li>
+            <li class="cs-item">
+              <a href="" class="cs-link">
+                  <picture class="cs-picture" aria-hidden="true">
+                      <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Services/doorway.svg" loading="lazy" decoding="async" alt="icon" width="32" height="32">
+                  </picture>
+                  <h3 class="cs-h3">Business Fraud</h3>
+                  <p class="cs-item-p">
+                    The most common type of fraud involves intentional deception with the end goal of financial gain for the perpetrator. From minor insurance fraud to major corporate fraud, you never know when you may become the victim of fraudulent activities within your company.
+                  </p>
+              </a>
+          </li>
+          <li class="cs-item">
+              <a href="" class="cs-link">
+                  <picture class="cs-picture" aria-hidden="true">
+                      <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Services/kitchen.svg" loading="lazy" decoding="async" alt="icon" width="32" height="32">
+                  </picture>
+                  <h3 class="cs-h3">Pre Employment Screening</h3>
+                  <p class="cs-item-p">
+                      The most common type of fraud involves intentional deception with the end goal of financial gain for the perpetrator. From minor insurance fraud to major corporate fraud, you never know when you may become the victim of fraudulent activities within your company.
+
+                  </p>
+              </a>
+          </li>
+        </ul>
+        <a href="/background-checks" class="cs-button-solid">Learn more</a>
+    </div>
 </section>

@@ -1,0 +1,379 @@
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0em) {
+    #services-9797 {
+      font-family: 'Roboto', 'Arial', sans-serif;
+      /* centers the button */
+      text-align: center;
+      padding: var(--sectionPadding);
+    }
+    #services-9797 .cs-container {
+      width: 100%;
+      max-width: 80em;
+      margin: auto;
+    }
+    #services-9797 .cs-topper {
+      font-size: var(--topperFontSize);
+      line-height: 1.2em;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: .1em;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      display: block;
+    }
+    #services-9797 .cs-title {
+      font-size: var(--headerFontSize);
+      font-weight: 900;
+      line-height: 1.2em;
+      text-align: center;
+      max-width: 50rem;
+      margin: 0 auto 1rem;
+      color: var(--headerColor);
+      position: relative;
+    }
+    #services-9797 .cs-text {
+      font-size: var(--bodyFontSize);
+      line-height: 1.5rem;
+      text-align: center;
+      width: 100%;
+      max-width: 40.625rem;
+      margin: 0 auto;
+      /* 48px - 68px */
+      margin-bottom: clamp(3rem, 6vw, 4rem);
+      color: var(--bodyTextColor);
+    }
+    #services-9797 .cs-card-group {
+      margin: 0;
+      /* 48px - 68px */
+      margin-bottom: clamp(3rem, 6vw, 4rem);
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      row-gap: 1rem;
+    }
+    #services-9797 .cs-item {
+      list-style: none;
+      max-width: 31.25rem;
+      /* 32px - 40px top & bottom */
+      /* 28px - 40px left & right */
+      padding: clamp(2rem, 3vw, 2.5rem) clamp(1.75rem, 3vw, 2.5rem);
+      border-radius: 1rem;
+      border: 1px solid #E8E8E8;
+      box-sizing: border-box;
+      transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    }
+    #services-9797 .cs-item:hover {
+      background-color: #fff;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 50px;
+      transform: translateY(-0.4375rem);
+    }
+    #services-9797 .cs-item:hover .cs-picture:before {
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+    }
+    #services-9797 .cs-link {
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    #services-9797 .cs-picture {
+      width: 5rem;
+      height: 5rem;
+      margin: 0;
+      margin-bottom: 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      background-color: #FFF5E6;
+      position: relative;
+      z-index: 1;
+    }
+    #services-9797 .cs-icon {
+      height: 2rem;
+      width: auto;
+    }
+    #services-9797 .cs-h3 {
+      font-size: 1.25rem;
+      font-weight: 900;
+      text-align: center;
+      line-height: 1.2em;
+      margin: 0;
+      margin-bottom: 0.75rem;
+      color: var(--headerColor);
+      transition: color .3s;
+    }
+    #services-9797 .cs-item-p {
+      font-size: 1rem;
+      text-align: center;
+      line-height: 1.5em;
+      margin: 0;
+      color: var(--bodyTextColor);
+      transition: color .3s;
+    }
+    #services-9797 .cs-button-solid {
+      font-size: 1rem;
+      /* 46px - 56px */
+      line-height: clamp(2.875em, 5.5vw, 3.5em);
+      text-decoration: none;
+      font-weight: 700;
+      text-align: center;
+      margin: auto;
+      color: #fff;
+      min-width: 9.375rem;
+      padding: 0 1.5rem;
+      background-color: var(--primary);
+      border-radius: 0.25rem;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      /* prevents padding from adding to the width */
+      box-sizing: border-box;
+    }
+    #services-9797 .cs-button-solid:before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 0%;
+      background: #000;
+      opacity: 1;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      border-radius: 0.25rem;
+      transition: width .3s;
+    }
+    #services-9797 .cs-button-solid:hover:before {
+      width: 100%;
+    }
+  }
+  /* Tablet - 768px */
+  @media only screen and (min-width: 48em) {
+    #services-9797 .cs-card-group {
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      /* 16px - 20px */
+      column-gap: clamp(1rem, 2vw, 1.25rem);
+    }
+  }
+  /* Dark Mode */
+  @media only screen and (min-width: 0em) {
+    body.dark-mode #services-9797 .cs-topper {
+      color: var(--primaryLight);
+    }
+    body.dark-mode #services-9797 .cs-title,
+    body.dark-mode #services-9797 .cs-text,
+    body.dark-mode #services-9797 .cs-h3,
+    body.dark-mode #services-9797 .cs-item-p {
+      color: var(--bodyTextColorWhite);
+    }
+    body.dark-mode #services-9797 .cs-picture {
+      background-color: var(--medium);
+    }
+    body.dark-mode #services-9797 .cs-item {
+      position: relative;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+    body.dark-mode #services-9797 .cs-item:hover {
+      background-color: var(--accent);
+    }
+    body.dark-mode #services-9797 .cs-item:hover:before {
+      opacity: 1;
+    }
+    body.dark-mode #services-9797 .cs-item:hover .cs-h3,
+    body.dark-mode #services-9797 .cs-item:hover .cs-item-p {
+      color: #fff;
+    }
+  }
+
+
+  /*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0em) {
+
+    #sbs-1648 {
+      font-family: 'Roboto', 'Arial', sans-serif;
+      padding: var(--sectionPadding);
+    }
+    #sbs-1648 .cs-container {
+      width: 100%;
+      max-width: 80rem;
+      margin: auto;
+    }
+    #sbs-1648 .cs-left {
+      width: 95%;
+      max-width: 34.375rem;
+      margin: 0 auto 3rem;
+      position: relative;
+      display: block;
+      /* width divided by height */
+      aspect-ratio: 0.93134328;
+      border-radius: 1rem;
+    }
+    #sbs-1648 .cs-left:before {
+      /* Top right box */
+      content: '';
+      width: 10rem;
+      /* 202px - 248px */
+      height: clamp(12.625rem, 25vw, 15.5rem);
+      background: #1a1a1a;
+      opacity: 1;
+      border-radius: 1rem;
+      position: absolute;
+      display: block;
+      /* 16px -20px */
+      /* wrapped in a calc funtion to get a negative clamp value */
+      top: calc(clamp(.5rem, 2.09vw, 1.25rem) * -1);
+      right: calc(clamp(.5rem, 2.09vw, 1.25rem) * -1);
+    }
+    #sbs-1648 .cs-left:after {
+      /* Bottom left box */
+      content: '';
+      width: 10rem;
+      /* 202px - 248px */
+      height: clamp(12.625rem, 25vw, 15.5rem);
+      background: #1a1a1a;
+      opacity: 1;
+      border-radius: 1rem;
+      position: absolute;
+      display: block;
+      /* 16px -20px */
+      /* wrapped in a calc funtion to get a negative clamp value */
+      bottom: calc(clamp(.5rem, 2.09vw, 1.25rem) * -1);
+      left: calc(clamp(.5rem, 2.09vw, 1.25rem) * -1);
+      z-index: -1;
+    }
+    #sbs-1648 .cs-left img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 1rem;
+    }
+    #sbs-1648 .cs-right {
+      margin: auto;
+      max-width: 33.875rem;
+    }
+    #sbs-1648 .cs-topper {
+      font-size: var(--topperFontSize);
+      line-height: 1.2em;
+      text-transform: uppercase;
+      text-align: left;
+      letter-spacing: .1em;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      display: block;
+    }
+    #sbs-1648 .cs-title {
+      font-size: var(--headerFontSize);
+      font-weight: 900;
+      line-height: 1.2em;
+      text-align: left;
+      max-width: 50rem;
+      margin: 0 auto 1rem;
+      color: var(--headerColor);
+      position: relative;
+    }
+    #sbs-1648 .cs-text {
+      font-size: var(--bodyFontSize);
+      line-height: 1.5em;
+      text-align: left;
+      width: 100%;
+      max-width: 46.875rem;
+      margin: 0 auto;
+      margin-bottom: 1rem;
+      color: var(--bodyTextColor);
+    }
+    #sbs-1648 .cs-text:last-of-type {
+      margin-bottom: 2rem;
+    }
+    #sbs-1648 .cs-button-solid {
+      font-size: 1rem;
+      /* 46px - 56px */
+      line-height: clamp(2.875em, 5.5vw, 3.5em);
+      text-decoration: none;
+      font-weight: 700;
+      text-align: center;
+      margin: auto;
+      color: #fff;
+      min-width: 9.375rem;
+      padding: 0 1.5rem;
+      background-color: var(--primary);
+      border-radius: 0.25rem;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      /* prevents padding from adding to the width */
+      box-sizing: border-box;
+    }
+    #sbs-1648 .cs-button-solid:before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 0%;
+      background: #000;
+      opacity: 1;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      border-radius: 0.25rem;
+      transition: width .3s;
+    }
+    #sbs-1648 .cs-button-solid:hover:before {
+      width: 100%;
+    }
+  }
+  /* Tablet - 768px */
+  @media only screen and (min-width: 48em) {
+    #sbs-1648 .cs-container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    #sbs-1648 .cs-left {
+      /* 328px - 502px */
+      width: clamp(20.5rem, 37.5vw, 31.375rem);
+      /* 440px - 520px */
+      height: clamp(27.5rem, 40vw, 32.5rem);
+      margin: 0;
+      /* 16px - 20px */
+      margin-left: clamp(1rem, 5vw, 1.25rem);
+      /* 60px - 128px */
+      margin-right: clamp(3.75rem, 9vw, 8rem);
+      flex: none;
+    }
+    #sbs-1648 .cs-right {
+      max-width: 33rem;
+      margin: 0;
+      width: 45%;
+    }
+  }
+  /* Dark Mode */
+  @media only screen and (min-width: 0em) {
+    body.dark-mode #sbs-1648 .cs-left:before,
+    body.dark-mode #sbs-1648 .cs-left:after {
+      background: var(--accent);
+    }
+    body.dark-mode #sbs-1648 .cs-title,
+    body.dark-mode #sbs-1648 .cs-text {
+      color: var(--bodyTextColorWhite);
+    }
+  }
